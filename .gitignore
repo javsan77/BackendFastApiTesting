@@ -1,0 +1,55 @@
+# ---- Archivos de Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Entorno Virtual ----
+venv/
+env/
+.venv/
+.env/
+
+# ---- Dependencias ----
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ---- Archivos de configuración local ----
+*.log
+*.pid
+*.db
+*.sqlite3
+
+# ---- Configuración de FastAPI / Uvicorn ----
+# Archivos de recarga automática
+*.reload
+*.uvicorn
+
+# ---- IDEs / Editores ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Archivos de pruebas ----
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+.tox/
+
+# ---- Archivos de Docker ----
+*.pid
+*.sock
+docker-compose.override.yml
+
+# ---- Variables de entorno ----
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ---- Otros ----
+.DS_Store
+Thumbs.db
